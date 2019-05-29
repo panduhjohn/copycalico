@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+
+}
+
+li {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+div {
+    border: 1px solid black;
+    text-decoration: none;  /* takes out the underline on links */
+    border-radius: 100px;
+    box-sizing: border-box;
+    background-color: F2F2F2;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+    font-size: 16px;
+
+    border-radius: 0px;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    padding-left: 450px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
