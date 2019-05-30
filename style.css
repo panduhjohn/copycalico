@@ -1,5 +1,11 @@
+/* * { 
+	margin: 0;
+	box-sizing: border-box;
+} */
+
 body {
     background-color: white;
+    /* font-size: 10px; */
 
 }
 
@@ -7,34 +13,88 @@ li {
     display: inline;
     list-style: none;
     text-decoration: none;
+    padding: none;
+    border: none;
+
+    /* letter-spacing: 1.9px; */
 
 }
 
 div {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-decoration: none;  /* takes out the underline on links */
     border-radius: 100px;
     box-sizing: border-box;
     background-color: F2F2F2;
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 15px;
     padding-top: 30px;
     padding-bottom: 30px;
     color: black;
     font-size: 16px;
-
     border-radius: 0px;
-
-
+    border-top: 20px;
+    border-bottom: 54540px;
 }
 
-a {
+a{
     text-decoration: none;
+    color: rgb(105, 101, 101);
+
 }
 
+p {
+    text-decoration: none;
+    background-color: #F7F7F7;
+    font-size: 14px;
+    padding: 8px 15px;
+    /* padding-right: 99px; */
+    border-radius: 5px;  /*the curves around the borders */
+    color: rgb(105, 101, 101);
+    font: arial;
+    
+}
+
+p:hover {
+    background-color: transparent;
+    border-bottom: 220px; /*this didnt do anything*/
+    border-top: 220px;
+    border-right: 220px;
+    border-left: 220px;
+    border-color: blue;
+    border: blue;
+    border: 1px solid blue;
+    
+}
+
+footer {
+    background: gray;
+    text-align: center;
+    padding: 1px 0;
+    margin: 30px 0 0;
+    border-top: 2px;
+    background-color: #F2F2F2;
+    font-size: 15px;
+
+
+    /* padding-top: 20px; just pushes the text down */
+}
 img {
     padding-left: 450px;
     padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
+    width: 25%;
+    height: 500%; /*with or without, doesnt do anything */
+    /* orientation: right; */
 }
+
+input {
+    width: 500px;
+    height: 25px;
+    border-radius: 30px;
+    border: 1px solid gray;
+
+}
+
+
