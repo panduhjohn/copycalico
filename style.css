@@ -8,49 +8,70 @@ body {
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
 
+
+
 }
 
 header div {
     margin-top: -175px;
+    font-size: small;
 
 }
 
 header div:nth-child(1) {
     float: left;
+    padding-left: 20px;
+    padding-top: 18px
 
 }
 
 header div:nth-child(2) {
     float: right;
+    padding-right: 20px;
+    padding-top: 18px
 }
 
 
 div {
     margin: auto;
     margin-top: 175px;
+    text: 13px;
 }
 
 div:nth-child(3){
     margin: auto;
     text-align: center;
 }
+/* .btn-container {
+    padding-top: 18px;
+} */
 
 button {
     margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #F7F7F7;
+    color: rgb(105, 101, 101);
+    font-size: 13px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+
 }
 
 a{
     text-decoration: none;
     color: rgb(105, 101, 101);
+    margin-right: 10px;
 }
 
 p {
     text-decoration: none;
     background-color: #F7F7F7;
     padding: 8px 15px;
-
     border-radius: 5px;  /*the curves around the borders */
     color: rgb(105, 101, 101);
     font: arial;
@@ -63,45 +84,53 @@ footer {
     background: gray;
     text-align: center;
     padding: 1px 0;
-    margin-top: 400px;
+    margin-top: 425px;
     height: 50px;
-    border-top: 2px;
+    border-top: 20px;
     background-color: #F2F2F2;
     display: block;
-
 }
+
 footer div {
     display: inline;
-    margin-top: 0px;
+    margin-top: 11px;
+    font-size: 12px;
 }
+
 footer div:nth-child(1) {
     float: left;
+    margin-left: 25px;
+
 }
 footer div:nth-child(2) {
     float: right;
+    margin-right: 25px;
 }
 
 img {
-    width: 18%;
-    height: 90px;
+    height: 85px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
     margin-bottom: 25px;
     display: block;
-
 }
 
 input {
-    width: 500px;
-    height: 35px;
+    width: 425px;
+    height: 40px;
     border-radius: 30px;
-    border: 1px solid gray;
+    border: 1px solid rgba(0, 0, 0, .1);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     display: block;
     padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
+input:hover {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);
+}
 
